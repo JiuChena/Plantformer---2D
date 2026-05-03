@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b823639e543694d890e5f8a77be1af, type: 3}
+  m_Name: Player Controller
+  m_EditorClassIdentifier: 
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  InputEnable: 1
+  SnapInput: 1
+  VerticalDeadZoneThreshold: 0.3
+  HorizontalDeadZoneThreshold: 0.1
+  MaxSpeed: 12
+  Acceleration: 120
+  GroundDeceleration: 36
+  AirDeceleration: 30
+  GroundingForce: 0
+  GrounderDistance: 0.05
+  MaxWalkableSlopeAngle: 60
+  SteepSlopeSlideSpeed: 10
+  SteepSlopeSlideAcceleration: 60
+  SlopeSensorSpread: 0.5
+  SlopeSensorStartHeight: 0.1
+  SlopeSensorDistance: 0.15
+  SlopeAlignmentSpeed: 720
+  SteepSlopeAheadDetectionRange: 1
+  JumpPower: 36
+  MaxFallSpeed: 40
+  FallAcceleration: 110
+  JumpEndEarlyGravityModifier: 3
+  CoyoteTime: 0.15
+  JumpBuffer: 0.2
+  MinLandingSoundFallDistance: 0.03
+  AllowAirJump: 1
+  AirJumps: 1
+  AllowWallInteraction: 1
+  WallDetectionDistance: 0.05
+  WallSlideSpeed: 3
+  WallStickTime: 0.15
+  WallJumpPower: 30
+  WallJumpHorizontalPower: 18
+  WallJumpControlLockTime: 0.12
+  AllowGroundDash: 1
+  DashDuration: 0.12
+  DashSpeed: 24
+  DashCooldown: 1
+  DashAfterImageInterval: 0.08
+  DashAfterImageLifetime: 0.4
+  DashAfterImageInitialAlpha: 0.6
+  DashAfterImageColor: {r: 0.5019608, g: 1, b: 0.8117364, a: 1}
